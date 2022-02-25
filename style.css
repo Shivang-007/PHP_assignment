@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Home Page Container */
+.container{                      
+    width: 350px;
+    height: 390px;
+    margin-top: 30px;
+    padding-top: 2px;
+    border:0;
+    border-radius: 12px;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color:#000d1a;
+}
+
+/* Home Page Buttons */
+.btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border:0.5px solid grey;
+}
+.btn-light{
+    background-color: rgb(73, 211, 165);
+}
+.btn-light:hover{
+    border: 0.5px solid #0073e6;
+    background-color: white;
+    
+}
+i{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.btn:hover *{
+    text-decoration: none;
+    color: #0073e6;
+}
+
+/* Conversion Page Container */
+.container_conversion{
+    width: 600px;
+    height: 600px;
+    margin-top: 100px;
+}
+
+/* Dropdown */
+#length-names{
+    width: 250px;
+    height: 28px;
+    margin: 8px 8px;
+}
+
+/* Submit Button */
+#submit{
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+/* Conversion Page Buttons */
+.button_container{
+    width: 600px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#submit>a{
+    color: white;
+}
+.OutputClass{
+    margin-left: 20px;
+}
+
